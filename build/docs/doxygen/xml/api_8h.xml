@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="acars__gen_8h" local="no">acars_gen.h</includedby>
+    <incdepgraph>
+      <node id="19">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="21">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>acars_gen_impl.h</label>
+        <link refid="acars__gen__impl_8h"/>
+      </node>
+      <node id="22">
+        <label>acars_gen.h</label>
+        <link refid="acars__gen_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a3c737534fb602d04a2f3b71e2dd5d8af" prot="public" static="no">
+        <name>ACARS_SEND_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/corentin/gnu_radio/gr-Acars_send/include/Acars_send/api.h" line="30" column="12" bodyfile="/home/corentin/gnu_radio/gr-Acars_send/include/Acars_send/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/corentin/gnu_radio/gr-Acars_send/include/Acars_send/api.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1Acars__send_1_1acars__gen" kind="class"><name>gr::Acars_send::acars_gen</name>
+    <member refid="classgr_1_1Acars__send_1_1acars__gen_1a53fafebc7c1ed6db8e34476a5b9bb35d" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1Acars__send_1_1acars__gen_1a3e67bc9a98bbcaad8db739fc3defb782" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1Acars__send_1_1acars__gen__impl" kind="class"><name>gr::Acars_send::acars_gen_impl</name>
+    <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1aa361526ad4e09216cd72ef51b92b9674" kind="variable"><name>myfile</name></member>
+    <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1af3675f45dce87c742767587cce369126" kind="variable"><name>preamble_sync</name></member>
+    <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1a16b8a2b58271d35ed89ebeb0f8793d09" kind="function"><name>acars_gen_impl</name></member>
+    <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1a3538551189456f2057824f07b5e7c15e" kind="function"><name>~acars_gen_impl</name></member>
+    <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1ae7735c4abdae6d717b5d7fb544598d09" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1Acars__send" kind="namespace"><name>gr::Acars_send</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="acars__gen_8h" kind="file"><name>acars_gen.h</name>
+  </compound>
+  <compound refid="acars__gen__impl_8h" kind="file"><name>acars_gen_impl.h</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a3c737534fb602d04a2f3b71e2dd5d8af" kind="define"><name>ACARS_SEND_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_2ec96dc298f312286bd62228beb6ce7e" kind="dir"><name>Acars_send</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

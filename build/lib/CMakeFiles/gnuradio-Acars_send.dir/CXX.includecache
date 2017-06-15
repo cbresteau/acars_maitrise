@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Acars_send/acars_gen.h
+Acars_send/api.h
+-
+gnuradio/sync_block.h
+-
+
+../include/Acars_send/api.h
+gnuradio/attributes.h
+-
+
+/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.cc
+config.h
+/home/corentin/gnu_radio/gr-Acars_send/lib/config.h
+gnuradio/io_signature.h
+-
+acars_gen_impl.h
+/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h
+
+/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h
+Acars_send/acars_gen.h
+-
+stdio.h
+-
+stdlib.h
+-
+fstream
+-
+iomanip
+-
+sstream
+-
+string.h
+-
+

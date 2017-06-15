@@ -1,0 +1,16 @@
+<block>
+  <name>Acars gen</name>
+  <key>Acars_send_acars_gen</key>
+  <category>[ACARS_SEND]</category>
+  <import>import Acars_send</import>
+  <make>Acars_send.acars_gen($file)</make>
+  <param>
+    <name>File</name>
+    <key>file</key>
+    <type>string</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

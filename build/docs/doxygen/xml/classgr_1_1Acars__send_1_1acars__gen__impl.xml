@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1Acars__send_1_1acars__gen__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::Acars_send::acars_gen_impl</compoundname>
+    <basecompoundref refid="classgr_1_1Acars__send_1_1acars__gen" prot="public" virt="non-virtual">gr::Acars_send::acars_gen</basecompoundref>
+    <includes refid="acars__gen__impl_8h" local="no">acars_gen_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1Acars__send_1_1acars__gen__impl_1aa361526ad4e09216cd72ef51b92b9674" prot="private" static="no" mutable="no">
+        <type>std::ifstream</type>
+        <definition>std::ifstream gr::Acars_send::acars_gen_impl::myfile</definition>
+        <argsstring></argsstring>
+        <name>myfile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h" line="39" column="1" bodyfile="/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1Acars__send_1_1acars__gen__impl_1af3675f45dce87c742767587cce369126" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::Acars_send::acars_gen_impl::preamble_sync[20]</definition>
+        <argsstring>[20]</argsstring>
+        <name>preamble_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h" line="40" column="1" bodyfile="/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1Acars__send_1_1acars__gen__impl_1a16b8a2b58271d35ed89ebeb0f8793d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Acars_send::acars_gen_impl::acars_gen_impl</definition>
+        <argsstring>(char *file)</argsstring>
+        <name>acars_gen_impl</name>
+        <param>
+          <type>char *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Acars__send_1_1acars__gen__impl_1a3538551189456f2057824f07b5e7c15e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::Acars_send::acars_gen_impl::~acars_gen_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~acars_gen_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1Acars__send_1_1acars__gen__impl_1ae7735c4abdae6d717b5d7fb544598d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::Acars_send::acars_gen_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="5">
+        <label>gr::Acars_send::acars_gen_impl</label>
+        <link refid="classgr_1_1Acars__send_1_1acars__gen__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::Acars_send::acars_gen</label>
+        <link refid="classgr_1_1Acars__send_1_1acars__gen"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="8">
+        <label>gr::Acars_send::acars_gen_impl</label>
+        <link refid="classgr_1_1Acars__send_1_1acars__gen__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::Acars_send::acars_gen</label>
+        <link refid="classgr_1_1Acars__send_1_1acars__gen"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h" line="37" column="1" bodyfile="/home/corentin/gnu_radio/gr-Acars_send/lib/acars_gen_impl.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1a16b8a2b58271d35ed89ebeb0f8793d09" prot="public" virt="non-virtual"><scope>gr::Acars_send::acars_gen_impl</scope><name>acars_gen_impl</name></member>
+      <member refid="classgr_1_1Acars__send_1_1acars__gen_1a3e67bc9a98bbcaad8db739fc3defb782" prot="public" virt="non-virtual"><scope>gr::Acars_send::acars_gen_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1aa361526ad4e09216cd72ef51b92b9674" prot="private" virt="non-virtual"><scope>gr::Acars_send::acars_gen_impl</scope><name>myfile</name></member>
+      <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1af3675f45dce87c742767587cce369126" prot="private" virt="non-virtual"><scope>gr::Acars_send::acars_gen_impl</scope><name>preamble_sync</name></member>
+      <member refid="classgr_1_1Acars__send_1_1acars__gen_1a53fafebc7c1ed6db8e34476a5b9bb35d" prot="public" virt="non-virtual"><scope>gr::Acars_send::acars_gen_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1ae7735c4abdae6d717b5d7fb544598d09" prot="public" virt="non-virtual"><scope>gr::Acars_send::acars_gen_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1Acars__send_1_1acars__gen__impl_1a3538551189456f2057824f07b5e7c15e" prot="public" virt="non-virtual"><scope>gr::Acars_send::acars_gen_impl</scope><name>~acars_gen_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
